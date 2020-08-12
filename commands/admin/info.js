@@ -25,7 +25,7 @@ module.exports = {
                 const node = require('nodeactyl');
                 const Application = node.Application;
 
-                Application.login('http://139.99.134.53/', 'm2Za9VIzcD2nPFtrCUlv9Gl0IbKVkqeAt7ZjWb6L8mfn1OsF', (logged_in, err) => {
+                Application.login('http://0.0.0.0/', 'REDACTED', (logged_in, err) => {
                     /** If you want call the function in here, 
                      * But we prefer you do have Application.login() at the top of your
                      * project and use the following syntax:
